@@ -1,5 +1,5 @@
 //
-//  MAAddMedicationViewController.h
+//  MAEditMedicationViewController.h
 //  ExampleProject
 //
 //  Created by Joseph Constantakis on 11/19/14.
@@ -7,12 +7,14 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "MAMedication.h"
 
-@interface MAAddMedicationViewController : UIViewController
+@interface MAEditMedicationViewController : UIViewController
 
+@property (nonatomic, strong) MAMedication *currentMedication;
 @property (nonatomic, strong) IBOutlet UITextField *nameField;
 @property (nonatomic, strong) IBOutlet UITextField *dosageField;
 
-- (IBAction)didTapAdd;
+- (IBAction)didTapSave;
 
 @end

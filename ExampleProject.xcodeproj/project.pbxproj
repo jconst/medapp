@@ -16,11 +16,13 @@
 		3C817E9B19DE13B00019C413 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C817E9919DE13B00019C413 /* Main.storyboard */; };
 		3C817E9E19DE13B00019C413 /* MAAskNameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C817E9D19DE13B00019C413 /* MAAskNameViewController.m */; };
 		3C817EA019DE13B00019C413 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C817E9F19DE13B00019C413 /* Images.xcassets */; };
+		5F550B4B1A1D2859006332C4 /* MAAddMedicationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F550B4A1A1D2859006332C4 /* MAAddMedicationViewController.m */; };
+		5F550B4E1A1D2B46006332C4 /* MAEditMedicationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F550B4D1A1D2B46006332C4 /* MAEditMedicationViewController.m */; };
 		5F5E93D01A015D9E00506DD3 /* MAHelloViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F5E93CF1A015D9E00506DD3 /* MAHelloViewController.m */; };
 		5F5E93D31A01610000506DD3 /* MAMedication.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F5E93D21A01610000506DD3 /* MAMedication.m */; };
 		5FFCB6FF1A016597008D2262 /* MAUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FFCB6FE1A016597008D2262 /* MAUser.m */; };
 		5FFCB7021A016861008D2262 /* MAContact.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FFCB7011A016861008D2262 /* MAContact.m */; };
-		5FFCB7051A01691C008D2262 /* MAAddMedicationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FFCB7041A01691C008D2262 /* MAAddMedicationViewController.m */; };
+		5FFCB7051A01691C008D2262 /* MAAddFirstMedicationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FFCB7041A01691C008D2262 /* MAAddFirstMedicationViewController.m */; };
 		5FFCB70A1A016AEE008D2262 /* MAShowMedicationsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FFCB7091A016AEE008D2262 /* MAShowMedicationsViewController.m */; };
 		D6A2C85513559C95D32E4E7C /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A05E2C72F17592726689A77D /* libPods.a */; };
 /* End PBXBuildFile section */
@@ -44,6 +46,10 @@
 		3C817EAE19DE13B00019C413 /* ExampleProjectTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ExampleProjectTests-Info.plist"; sourceTree = "<group>"; };
 		3C817EB019DE13B00019C413 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		3C817EB219DE13B00019C413 /* ExampleProjectTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExampleProjectTests.m; sourceTree = "<group>"; };
+		5F550B491A1D2859006332C4 /* MAAddMedicationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAAddMedicationViewController.h; sourceTree = "<group>"; };
+		5F550B4A1A1D2859006332C4 /* MAAddMedicationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MAAddMedicationViewController.m; sourceTree = "<group>"; };
+		5F550B4C1A1D2B46006332C4 /* MAEditMedicationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAEditMedicationViewController.h; sourceTree = "<group>"; };
+		5F550B4D1A1D2B46006332C4 /* MAEditMedicationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MAEditMedicationViewController.m; sourceTree = "<group>"; };
 		5F5E93CE1A015D9E00506DD3 /* MAHelloViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAHelloViewController.h; sourceTree = "<group>"; };
 		5F5E93CF1A015D9E00506DD3 /* MAHelloViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MAHelloViewController.m; sourceTree = "<group>"; };
 		5F5E93D11A01610000506DD3 /* MAMedication.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAMedication.h; sourceTree = "<group>"; };
@@ -52,8 +58,8 @@
 		5FFCB6FE1A016597008D2262 /* MAUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MAUser.m; sourceTree = "<group>"; };
 		5FFCB7001A016861008D2262 /* MAContact.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAContact.h; sourceTree = "<group>"; };
 		5FFCB7011A016861008D2262 /* MAContact.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MAContact.m; sourceTree = "<group>"; };
-		5FFCB7031A01691C008D2262 /* MAAddMedicationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAAddMedicationViewController.h; sourceTree = "<group>"; };
-		5FFCB7041A01691C008D2262 /* MAAddMedicationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MAAddMedicationViewController.m; sourceTree = "<group>"; };
+		5FFCB7031A01691C008D2262 /* MAAddFirstMedicationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAAddFirstMedicationViewController.h; sourceTree = "<group>"; };
+		5FFCB7041A01691C008D2262 /* MAAddFirstMedicationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MAAddFirstMedicationViewController.m; sourceTree = "<group>"; };
 		5FFCB7081A016AEE008D2262 /* MAShowMedicationsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAShowMedicationsViewController.h; sourceTree = "<group>"; };
 		5FFCB7091A016AEE008D2262 /* MAShowMedicationsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MAShowMedicationsViewController.m; sourceTree = "<group>"; };
 		92D41BEF2F9F2A753439EC65 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
@@ -162,12 +168,16 @@
 		5FFCB7061A016925008D2262 /* View Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				5F550B491A1D2859006332C4 /* MAAddMedicationViewController.h */,
+				5F550B4A1A1D2859006332C4 /* MAAddMedicationViewController.m */,
+				5F550B4C1A1D2B46006332C4 /* MAEditMedicationViewController.h */,
+				5F550B4D1A1D2B46006332C4 /* MAEditMedicationViewController.m */,
 				3C817E9C19DE13B00019C413 /* MAAskNameViewController.h */,
 				3C817E9D19DE13B00019C413 /* MAAskNameViewController.m */,
 				5F5E93CE1A015D9E00506DD3 /* MAHelloViewController.h */,
 				5F5E93CF1A015D9E00506DD3 /* MAHelloViewController.m */,
-				5FFCB7031A01691C008D2262 /* MAAddMedicationViewController.h */,
-				5FFCB7041A01691C008D2262 /* MAAddMedicationViewController.m */,
+				5FFCB7031A01691C008D2262 /* MAAddFirstMedicationViewController.h */,
+				5FFCB7041A01691C008D2262 /* MAAddFirstMedicationViewController.m */,
 				5FFCB7081A016AEE008D2262 /* MAShowMedicationsViewController.h */,
 				5FFCB7091A016AEE008D2262 /* MAShowMedicationsViewController.m */,
 			);
@@ -294,9 +304,11 @@
 				3C817E9E19DE13B00019C413 /* MAAskNameViewController.m in Sources */,
 				5FFCB70A1A016AEE008D2262 /* MAShowMedicationsViewController.m in Sources */,
 				5FFCB6FF1A016597008D2262 /* MAUser.m in Sources */,
-				5FFCB7051A01691C008D2262 /* MAAddMedicationViewController.m in Sources */,
+				5FFCB7051A01691C008D2262 /* MAAddFirstMedicationViewController.m in Sources */,
+				5F550B4E1A1D2B46006332C4 /* MAEditMedicationViewController.m in Sources */,
 				5FFCB7021A016861008D2262 /* MAContact.m in Sources */,
 				5F5E93D01A015D9E00506DD3 /* MAHelloViewController.m in Sources */,
+				5F550B4B1A1D2859006332C4 /* MAAddMedicationViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

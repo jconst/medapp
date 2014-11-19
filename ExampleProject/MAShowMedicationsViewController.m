@@ -10,8 +10,15 @@
 #import "MAAppDelegate.h"
 #import "MAMedication.h"
 #import "MAUser.h"
+#import "MAEditMedicationViewController.h"
 
 @implementation MAShowMedicationsViewController
+
+- (void)viewWillAppear:(BOOL)animated
+{
+    [super viewWillAppear:animated];
+    [self.tableView reloadData];
+}
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
 {
@@ -29,7 +36,18 @@
                                                             forIndexPath:indexPath];
     MAMedication *med = APPDELEGATE.currentUser.medications[indexPath.row];
     cell.textLabel.text = med.name;
+    cell.detailTextLabel.text = [[med.dosage description] stringByAppendingString:@" mg"];
     return cell;
+}
+
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
+{
+    if ([segue.destinationViewController isKindOfClass:[MAEditMedicationViewController class]]) {
+        MAEditMedicationViewController *editor = (MAEditMedicationViewController *)segue.destinationViewController;
+        UITableViewCell *cell = sender;
+        NSIndexPath *ip = [self.tableView indexPathForCell:cell];
+        editor.currentMedication = APPDELEGATE.currentUser.medications[ip.row];
+    }
 }
 
 @end
